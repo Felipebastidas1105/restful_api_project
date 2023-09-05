@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon server.js",
-    "dev2": "node server.js",
+    "start": "node server.js",
     "createdb": "npx sequelize db:create",
     "migrate": "npx sequelize db:migrate",
     "migrate-undo": "npx sequelize db:migrate:undo:all"
