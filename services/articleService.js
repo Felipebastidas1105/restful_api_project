@@ -13,7 +13,7 @@ const getAllArticles = async()=>{
             attributes: {
                 exclude: ['createdAt','updatedAt']
             },
-            include: ["categories"]
+            // include: ["categories"]
         })
         return Articles;
     } catch (error) {
