@@ -6,7 +6,7 @@
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
-  "development2": {
+  "development": {
     "username": "postgres",
     "password": "ROOT",
     "database": "db_api_rest2",
@@ -20,7 +20,7 @@
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
-  "development": {
+  "production": {
     "username": "bastidas_db",
     "password": "f4D4WhD2PNgJfORtzcVjkkyAO0pAT3HV",
     "database": "db_api_rest_aojd",
